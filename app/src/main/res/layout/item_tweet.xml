@@ -18,8 +18,8 @@
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_marginStart="5dp"
-        android:layout_toEndOf="@+id/ivProfileImage"
-        tools:text="pandey1234" />
+        android:layout_toEndOf="@+id/tvName"
+        tools:text="\@pandey1234" />
 
     <TextView
         android:id="@+id/tvBody"
@@ -29,6 +29,8 @@
         android:layout_marginStart="5dp"
         android:layout_marginTop="2dp"
         android:layout_toEndOf="@+id/ivProfileImage"
+        android:autoLink="web|email"
+        android:textColor="#000000"
         tools:text="This is my tweet!!" />
 
     <TextView
@@ -38,4 +40,15 @@
         android:layout_alignParentEnd="true"
         android:layout_marginEnd="5dp"
         tools:text="30m" />
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_toEndOf="@+id/ivProfileImage"
+        android:textColor="#000000"
+        android:textStyle="bold"
+        tools:text="Panda Bear" />
 </RelativeLayout>
