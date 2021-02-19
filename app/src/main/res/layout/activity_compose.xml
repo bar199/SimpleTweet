@@ -29,7 +29,7 @@
         android:layout_marginTop="5dp"
         android:textColorHint="@color/secondary_text"
         app:counterEnabled="true"
-        app:counterMaxLength="140"
+        app:counterMaxLength="280"
         app:counterTextColor="@color/secondary_text">
 
         <EditText
